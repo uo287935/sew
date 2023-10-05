@@ -5,6 +5,7 @@
     <!-- Datos que describen el documento -->
     <meta charset="UTF-8" />
     <title>EscritorioVirtual.Sobremi</title>
+	<link rel="icon" href="multimedia/imagenes/favicon.ico">
 	<meta name ="uo287935" content ="Enol Rodríguez" />
 	<meta name ="description" content ="El propósito de este archivo HTML es mostrar una descripción breve sobre mi mismo con
 										 algunos detalles como mis aficiones o gustos musicales" />
@@ -25,24 +26,34 @@
     <a accesskey="A" href="agenda.html">Agenda</a>
 	<a accesskey="M" href="meteorologia.html">Meteorologia</a>
   </nav>
-    <h1>Sobremi</h1>
-	<h2>Información personal</h2>
-		UO: 287935 <br>
-		Nombre: Enol <br>
-		Apellidos: Rodríguez Hevia <br>
-		<p> Soy un alumno de 19 años que estudia el grado de Ingeniería Informática del Software <br>
-			en la Universidad de Oviedo. Vivo en Mieres, Asturias. <br>
+    <h1>EscritorioVirtual</h1> <!--Escritorio Virtual propagar-->
+		<h2>Sobremi</h2>
+		<h2>Información personal</h2>
+		<p>UO: 287935   
+			Nombre: Enol 
+			Apellidos: Rodríguez Hevia 
+		</p>
+		<p> Soy un alumno de 19 años que estudia el grado de Ingeniería Informática del Software 
+			en la Universidad de Oviedo. Vivo en Mieres, Asturias. 
 		</p>
 	<picture>
 		<!--<img src="multimedia/Venecia.jpg" alt="1"> -->
-		<source srcset="multimedia/VeneciaMovil.jpg" media="(max-width: 465px)">
-		<source srcset="multimedia/VeneciaTablet.jpg" media="(max-width: 799px)">
-		<img src="multimedia/VeneciaMonitor.jpg" alt="1">
+		<source srcset="multimedia/imagenes/VeneciaMovil.jpg" media="(max-width: 465px)">
+		<source srcset="multimedia/imagenes/VeneciaTablet.jpg" media="(max-width: 799px)">
+		<img src="multimedia/imagenes/VeneciaMonitor.jpg" alt="1">
 	</picture>
+	<video controls>
+		<source src="multimedia/videos/VID-20230318-WA0050.mp4" type="video/mp4">
+		<source src="multimedia/videos/VID-20230318-WA0050.webm" type="video/webm">
+	</video>
+	<audio controls>
+		<source src="multimedia/audios/LaRajaDeTuFalda.mp3" type="audio/mp3">
+		<source src="multimedia/audios/LaRajaDeTuFalda.wav" type="audio/wav">
+	</audio>
 
 	<h2>Mis aficiones</h2>
 		<ul>
-			<li>Fútbol</li>
+			<li>Fútbol</li> <!--Lista anidada-->
 			<li>CrosFit</li>
 			<li>Viajar</li>
 			<li>Formula 1</li>
@@ -58,7 +69,7 @@
 		</ol>
 	<h2>5 asignaturas del grado que más me han gustado hasta el momento</h2>
 		<dl>
-			<dt>Asignaturas</dt>
+			<dt>Asignaturas</dt> <!--Revisar lista de definicion-->
 			<dd>Ondas y Electromagnetismo</dd>
 			<dd>Computabilidad</dd>
 			<dd>Arquitectura de Computadores</dd>
@@ -67,7 +78,7 @@
 		</dl>
 	<h2>Temperaturas medias anuales los últimos 10 años en Mieres</h2>
 		<table>
-			<thead>
+			<thead> <!--Tabla accesible-->
 				<tr>
 					<th>Temperatura</th>
 					<th>Año</th>
@@ -120,16 +131,6 @@
 		<p>
 			<a href= "https://es.climate-data.org/europe/espana/principado-de-asturias/mieres-del-camino-9619/">Temperaturas Mieres</a>
 			<a href = "https://es.wikipedia.org/wiki/Clima_de_Asturias">Temperaturas Asturias</a>
-		</p>
-	<h2>Vídeos y fotos</h2>
-		<picture>
-			<img src="multimedia/Austria.jpg" loading=lazy alt="1" width="300" height="300">
-		</picture>
-		<video width="384" height="288" controls>
-			<source src="multimedia/VID-20230909-WA0015.mp4" type="video/mp4">
-		</video>
-		<audio controls>
-			<source src="multimedia/LaRajaDeTuFalda.mp3" type="audio/mpeg">		  
-		</audio>		     
+		</p>	     
 </body>
 </html>
