@@ -18,17 +18,17 @@
 
 <body>
 	<nav>
-    <a accesskey="I" href="index.html">Index</a>
-    <a accesskey="S" href="sobremi.html">Sobremi</a>
-    <a accesskey="N" href="noticias.html">Noticias</a>
-	<a accesskey="V" href="viajes.html">Viajes</a>
-    <a accesskey="J" href="juegos.html">Juegos</a>
-    <a accesskey="A" href="agenda.html">Agenda</a>
-	<a accesskey="M" href="meteorologia.html">Meteorologia</a>
+    <a accesskey="I" tabindex="1" href="index.html">Index</a>
+    <a accesskey="S" tabindex="2" href="sobremi.html">Sobremi</a>
+    <a accesskey="N" tabindex="3" href="noticias.html">Noticias</a>
+	<a accesskey="V" tabindex="4" href="viajes.html">Viajes</a>
+    <a accesskey="J" tabindex="5" href="juegos.html">Juegos</a>
+    <a accesskey="A" tabindex="6" href="agenda.html">Agenda</a>
+	<a accesskey="M" tabindex="7" href="meteorologia.html">Meteorologia</a>
   </nav>
-    <h1>EscritorioVirtual</h1> <!--Escritorio Virtual propagar-->
+    <h1>EscritorioVirtual</h1>
 		<h2>Sobremi</h2>
-		<h2>Información personal</h2>
+		<h3>Información personal</h3>
 		<p>UO: 287935   
 			Nombre: Enol 
 			Apellidos: Rodríguez Hevia 
@@ -37,29 +37,56 @@
 			en la Universidad de Oviedo. Vivo en Mieres, Asturias. 
 		</p>
 	<picture>
-		<!--<img src="multimedia/Venecia.jpg" alt="1"> -->
 		<source srcset="multimedia/imagenes/VeneciaMovil.jpg" media="(max-width: 465px)">
 		<source srcset="multimedia/imagenes/VeneciaTablet.jpg" media="(max-width: 799px)">
-		<img src="multimedia/imagenes/VeneciaMonitor.jpg" alt="1">
+		<img src="multimedia/imagenes/VeneciaMonitor.jpg" alt="Vacaciones por Venecia">	
 	</picture>
-	<video controls>
+	<p>Esta imagen es una foto sacada en Venecia en mis vacaciones en verano por Italia</p>
+	<video controls preload="auto">
 		<source src="multimedia/videos/VID-20230318-WA0050.mp4" type="video/mp4">
 		<source src="multimedia/videos/VID-20230318-WA0050.webm" type="video/webm">
 	</video>
-	<audio controls>
-		<source src="multimedia/audios/LaRajaDeTuFalda.mp3" type="audio/mp3">
-		<source src="multimedia/audios/LaRajaDeTuFalda.wav" type="audio/wav">
-	</audio>
+	<p>Este es un vídeo en el que estoy tomando un postre tras una comida con mi pareja</p>
 
-	<h2>Mis aficiones</h2>
+	<h3>Mis aficiones</h3>
 		<ul>
-			<li>Fútbol</li> <!--Lista anidada-->
-			<li>CrosFit</li>
-			<li>Viajar</li>
-			<li>Formula 1</li>
-			<li>Baloncesto</li>
+			<li>Fútbol
+				<ul>
+					<li>Real Sporting de Gijon</li>
+					<li>F.C.Barcelona</li>
+					<li>Manchester City</li>
+				</ul>
+			</li>	 
+			<li>CrosFit
+				<ul>
+					<li>Press banca</li>
+					<li>Back squat</li>
+					<li>Muscle clean</li>
+				</ul>
+			</li>
+			<li>Viajar
+				<ul>
+					<li>Viajes turisticos</li>
+					<li>Viajes de playa</li>
+					<li>Viajes de fiesta</li>
+				</ul>
+			</li>
+			<li>Formula 1
+				<ul>
+					<li>Fernando Alonso</li>
+					<li>Carlos Sainz</li>
+					<li>Max Verstappen</li>
+				</ul>
+			</li>
+			<li>Baloncesto
+				<ul>
+					<li>Los Angeles Lakers</li>
+					<li>Miami Heat</li>
+					<li>Cleveland Cavaliers</li>
+				</ul>
+			</li>
 		</ul>
-	<h2>Mis grupos musicales y cantantes favoritos</h2>
+	<h3>Mis grupos musicales y cantantes favoritos</h3>
 		<ol>
 			<li>Imagine Dragons</li>
 			<li>Estopa</li>
@@ -67,21 +94,41 @@
 			<li>Canserbero</li>
 			<li>AC/DC</li>
 		</ol>
-	<h2>5 asignaturas del grado que más me han gustado hasta el momento</h2>
-		<dl>
-			<dt>Asignaturas</dt> <!--Revisar lista de definicion-->
-			<dd>Ondas y Electromagnetismo</dd>
-			<dd>Computabilidad</dd>
-			<dd>Arquitectura de Computadores</dd>
-			<dd>Estructura de Datos</dd>
-			<dd>Comunicacion Persona Maquina</dd>
+		<audio controls>
+			<source src="multimedia/audios/LaRajaDeTuFalda.mp3" type="audio/mp3">
+			<source src="multimedia/audios/LaRajaDeTuFalda.wav" type="audio/wav">
+		</audio>
+		<p>El audio es  la cancion "Por la Raja de tu Falda" una de mis canciones favoritas de uno de mis grupos favoritos que es Estopa</p>
+
+	<h3>5 asignaturas del grado que más me han gustado hasta el momento</h3>
+		<dl> 
+			<dt>Ondas y Electromagnetismo</dt>
+				<dd>
+					Sus contenidos son conocimientos de fisica basica como campos magneticos, electricos y ondas
+				</dd>
+			<dt>Computabilidad</dt>
+				<dd>
+					Sus contenidos son conocimientos de logica y computabilidad
+				</dd>			
+			<dt>Arquitectura de Computadores</dt>
+				<dd>
+					Sus contenidos son conocimientos de la CPU, memoria virtual, sistema de caché y rendimiento del computador
+				</dd>
+			<dt>Estructura de Datos</dt>
+				<dd>
+					Sus contenidos son conocimientos sobre recursividad, algortimos, tablas hash, arboles y grafos
+				</dd>
+			<dt>Comunicacion Persona Maquina</dt>
+				<dd>
+					Sus contenidos son conocimientos de diseño de interfaces de usuario y refactorizacion de codigo
+				</dd>
 		</dl>
-	<h2>Temperaturas medias anuales los últimos 10 años en Mieres</h2>
+	<h3>Temperaturas medias anuales los últimos 10 años en Mieres</h3>
 		<table>
-			<thead> <!--Tabla accesible-->
+			<thead> 
 				<tr>
-					<th>Temperatura</th>
-					<th>Año</th>
+					<th id="temperatura" headers="temperatura" scope="col">Temperatura</th>
+					<th id="año" headers="año" scope="col">Año</th>
 				</tr>
 			</thead>
 			<tbody>
