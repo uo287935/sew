@@ -1,16 +1,23 @@
-/*Especificidad: 001*/
+/* Enol Rodríguez Hevia y U287935O*/
+/*AQUAMARINE :#A8CEE9*/
+
+/*Especificidad 001*/
 body {
-  font-family: Tahoma, sans-serif;
-  color: #818181;
-  background-color: #fff;
-  }
-/*Especificidad: 001*/
-h1 {
-  color: #fff;    
-  background-color:#FF5733; 
-  text-transform: uppercase;
-  padding: 2em; 
-  text-align: center;     
-  }
+    font-family: Arial, sans-serif;
+    color: #A8CEE9;
+}
 
+/*Especificidad 001, 001, 001*/
+h1, h2, h3 {
+    font-family: 'Times New Roman', Times, serif;
+}
 
+/*Especificidad 001*/
+header{
+    /*hereda color de body*/
+    background-color: #391306;
+}
+
+body:link{
+    background-color: #391306;
+}
